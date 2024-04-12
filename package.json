@@ -34,7 +34,7 @@
     "build": "vite build --mode lib",
     "build:site": "vite build --mode site",
     "preview": "vite preview --mode site --port 8090",
-    "publish": "vite build & build:site & pnpm publish --access public"
+    "publish": "vite build --mode site & pnpm publish --access public"
   },
   "dependencies": {
     "vue": "^3.4.21"
