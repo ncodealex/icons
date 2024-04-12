@@ -1,0 +1,93 @@
+.i {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  background-color: currentColor;
+  mask-size: cover;
+
+  &-rocket {
+    mask-image: url("./assets/rocket-02.svg");
+  }
+
+  &-sun {
+    mask-image: url("./assets/sun.svg");
+  }
+
+  &-moon {
+    mask-image: url("./assets/moon-01.svg");
+  }
+
+  &-drag {
+    mask-image: url("./assets/dots-grid.svg");
+  }
+
+  &-dots-v {
+    mask-image: url("./assets/dots-vertical.svg");
+  }
+
+  &-add {
+    mask-image: url("./assets/plus.svg");
+  }
+
+  &-close {
+    mask-image: url("./assets/x-close.svg");
+  }
+
+  &-translate {
+    mask-image: url("./assets/translate-01.svg");
+  }
+
+  &-ok {
+    mask-image: url("./assets/ok.svg");
+  }
+
+  &-minus {
+    mask-image: url("./assets/minus.svg");
+  }
+
+
+  &-edit {
+    mask-image: url("./assets/edit-02.svg");
+  }
+
+  &-copy {
+    mask-image: url("./assets/copy-03.svg");
+  }
+
+  &-trash {
+    mask-image: url("./assets/trash-01.svg");
+  }
+
+  &-refresh {
+    mask-image: url("./assets/refresh.svg");
+  }
+
+  &-folder {
+    mask-image: url("./assets/folder.svg");
+  }
+
+  &-folder-open {
+    mask-image: url("./assets/folder-open.svg");
+  }
+
+  &-settings {
+    mask-image: url("./assets/settings-01.svg");
+  }
+
+  &-eye {
+    mask-image: url("./assets/eye.svg");
+  }
+
+  &-eye-off {
+    mask-image: url("./assets/eye-off.svg");
+  }
+
+  &-log-in {
+    mask-image: url("./assets/log-in.svg");
+  }
+
+  &-log-out {
+    mask-image: url("./assets/log-out.svg");
+  }
+
+}
