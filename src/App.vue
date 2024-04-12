@@ -214,14 +214,14 @@ const copyToClipboard = (clipboardItem: string) => {
             >
               {{ icon.name.toUpperCase() }}
             </div>
-            <n-icon
+            <i
               :class="icon.className"
               style="width: 2rem; height: 2rem"
             />
             <span
-              class="cursor-pointer rounded px-1 hover:bg-blue-600 hover:text-white"
+              class="cursor-pointer rounded px-1 hover:bg-blue-600 items-center text-sm text-center hover:text-white"
               @click="copyToClipboard(icon.className)"
-            >{{ icon.className }}</span>
+            >{{ icon.className.split(' ')[1] }}</span>
           </div>
         </div>
       </div>

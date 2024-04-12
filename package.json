@@ -14,8 +14,8 @@
     }
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --mode site",
+    "build": "vite build --mode lib",
     "build:site": "vite build --mode site",
     "preview": "vite preview --mode site --port 8090",
     "publish": "vite build & build:site & pnpm publish --access public"
