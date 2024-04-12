@@ -1,12 +1,28 @@
 {
   "name": "@ncode.alex/icons",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "description": "Icon collection for build modern app",
+  "author": "Alex NCode",
+  "license": "MIT",
+  "homepage": "https://ncodealex.github.io/icons/",
   "type": "module",
   "main": "./dist/style.css",
   "module": "./dist/style.css",
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncodealex/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ncodealex/icons/issues"
+  },
+  "keywords": [
+    "ui",
+    "icons",
+    "react & vue icons"
   ],
   "exports": {
     ".": {
