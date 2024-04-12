@@ -153,33 +153,30 @@ const copyToClipboard = (clipboardItem: string) => {
     <div class="container mx-auto flex flex-col gap-4">
       <!--input-->
       <div
-        class="flex w-full flex-col items-center justify-between gap-4"
+        class="flex w-full flex-col items-center justify-between gap-4 "
       >
         <div
-          class="flex w-full justify-start gap-8"
+          class="flex w-full justify-start gap-8 flex-col sm:flex-row"
           data-Id="head"
         >
-          <div class="flex flex-row items-center gap-4">
-            <div class="text-3xl font-bold">
+          <div class="flex flex-row items-center gap-4 flex-nowrap">
+            <div class="text-3xl font-bold flex-nowrap truncate">
               <span class="text-blue-900">_N</span>Code icons
             </div>
-
             <span
               class="rounded-md border border-blue-300 bg-blue-50 p-1 text-base"
             >{{ icons.length }}</span>
           </div>
-          <div class="flex items-center gap-4">
+          <div class="relative flex items-center gap-4 w-full sm:w-60">
             <input
               v-model="qs"
-              class="border-primary relative flex flex-row items-center rounded-md border bg-white px-4 py-2 text-gray-900 shadow transition-shadow focus:outline-none"
+              class="border-primary w-full relative flex flex-row items-center rounded-md border bg-white pl-4 pr-10 py-2 text-gray-900 shadow transition-shadow focus:outline-none"
               placeholder="Keyup for search"
               tabindex="0"
             >
             <span
-              :class="
-                qs.length > 0 ? 'opacity-100' : 'opacity-0'
-              "
-              class="n-icon n-icon-close cursor-pointer text-gray-300 transition-all hover:text-blue-400"
+                v-show="qs.length > 0"
+              class="n-icon n-icon-close cursor-pointer text-gray-300 transition-all hover:text-blue-400 absolute right-3"
               style="width: 1.5rem; height: 1.5rem"
               @click="qs = ''"
             />
