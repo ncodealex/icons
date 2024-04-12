@@ -4,109 +4,109 @@ import { ref, watch } from 'vue'
 const icons = [
   {
     name: 'Rocket',
-    className: 'i i-rocket',
+    className: 'n-icon n-icon-rocket',
     tags: 'rocket,start'
   },
   {
     name: 'Sun',
-    className: 'i i-sun',
+    className: 'n-icon n-icon-sun',
     tags: 'light,sun'
   },
   {
     name: 'Moon',
-    className: 'i i-moon',
+    className: 'n-icon n-icon-moon',
     tags: 'dark,moon'
   },
   {
     name: 'Drag',
-    className: 'i i-drag',
+    className: 'n-icon n-icon-drag',
     tags: 'drag element, drag'
   },
   {
     name: 'Dots vertical',
-    className: 'i i-dots-v',
+    className: 'n-icon n-icon-dots-v',
     tags: 'dots'
   },
   {
     name: 'Add',
-    className: 'i i-add',
+    className: 'n-icon n-icon-add',
     tags: 'add, plus'
   },
   {
     name: 'Close',
-    className: 'i i-close',
+    className: 'n-icon n-icon-close',
     tags: 'close'
   },
 
   ///
   {
     name: 'Translate',
-    className: 'i i-translate',
+    className: 'n-icon n-icon-translate',
     tags: 'translate'
   },
   {
     name: 'Ok',
-    className: 'i i-ok',
+    className: 'n-icon n-icon-ok',
     tags: 'ok'
   },
   {
     name: 'Minus',
-    className: 'i i-minus',
+    className: 'n-icon n-icon-minus',
     tags: 'minus'
   },
   {
     name: 'Edit',
-    className: 'i i-edit',
+    className: 'n-icon n-icon-edit',
     tags: 'edit'
   },
   {
     name: 'Copy',
-    className: 'i i-copy',
+    className: 'n-icon n-icon-copy',
     tags: 'Copy'
   },
   {
     name: 'trash',
-    className: 'i i-trash',
+    className: 'n-icon n-icon-trash',
     tags: 'trash'
   },
   {
     name: 'Refresh',
-    className: 'i i-refresh',
+    className: 'n-icon n-icon-refresh',
     tags: 'refresh, update'
   },
   {
     name: 'Folder',
-    className: 'i i-folder',
+    className: 'n-icon n-icon-folder',
     tags: 'folder'
   },
   {
     name: 'Folder Open',
-    className: 'i i-folder-open',
+    className: 'n-icon n-icon-folder-open',
     tags: 'folder open'
   },
   {
     name: 'Settings',
-    className: 'i i-settings',
+    className: 'n-icon n-icon-settings',
     tags: 'settings, cog'
   },
   {
     name: 'Eye',
-    className: 'i i-eye',
+    className: 'n-icon n-icon-eye',
     tags: 'eye, glass, password show'
   },
   {
     name: 'Eye off',
-    className: 'i i-eye-off',
+    className: 'n-icon n-icon-eye-off',
     tags: 'eye, glass, password hide'
   },
   {
     name: 'Log in',
-    className: 'i i-log-in',
+    className: 'n-icon n-icon-log-in',
     tags: 'login'
   },
   {
     name: 'Log out',
-    className: 'i i-log-out',
+    className: 'n-icon n-icon-log-out',
     tags: 'logout'
   }
 ]
@@ -179,7 +179,7 @@ const copyToClipboard = (clipboardItem: string) => {
               :class="
                 qs.length > 0 ? 'opacity-100' : 'opacity-0'
               "
-              class="i i-close cursor-pointer text-gray-300 transition-all hover:text-blue-400"
+              class="n-icon n-icon-close cursor-pointer text-gray-300 transition-all hover:text-blue-400"
               style="width: 1.5rem; height: 1.5rem"
               @click="qs = ''"
             />
@@ -214,7 +214,7 @@ const copyToClipboard = (clipboardItem: string) => {
             >
               {{ icon.name.toUpperCase() }}
             </div>
-            <i
+            <n-icon
               :class="icon.className"
               style="width: 2rem; height: 2rem"
             />
