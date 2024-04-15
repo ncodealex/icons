@@ -90,4 +90,34 @@
     mask-image: url("./assets/log-out.svg");
   }
 
+  &-sort {
+    mask-image: url("./assets/sort.svg");
+  }
+
+  &-sort-asc {
+    mask-image: url("./assets/sort-asc.svg");
+  }
+
+  &-sort-desc {
+    mask-image: url("./assets/sort-desc.svg");
+  }
+  &-search {
+    mask-image: url("./assets/search.svg");
+  }
+
+  &-home {
+    mask-image: url("./assets/home.svg");
+  }
+
+  &-image {
+    mask-image: url("./assets/image-03.svg");
+  }
+
+  &-arrow-right {
+    mask-image: url("./assets/arrow-right.svg");
+  }
+
+  &-chevron-right {
+    mask-image: url("./assets/chevron-right.svg");
+  }
 }

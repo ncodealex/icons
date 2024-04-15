@@ -8,6 +8,16 @@ const icons = [
     tags: 'rocket,start'
   },
   {
+    name: 'Home',
+    className: 'n-icon n-icon-home',
+    tags: 'home, breadcrumbs'
+  },
+  {
+    name: 'Image',
+    className: 'n-icon n-icon-image',
+    tags: 'image, no-image, avatar'
+  },
+  {
     name: 'Sun',
     className: 'n-icon n-icon-sun',
     tags: 'light,sun'
@@ -20,12 +30,12 @@ const icons = [
   {
     name: 'Drag',
     className: 'n-icon n-icon-drag',
-    tags: 'drag element, drag'
+    tags: 'drag element, drag, dots grid'
   },
   {
     name: 'Dots vertical',
     className: 'n-icon n-icon-dots-v',
-    tags: 'dots'
+    tags: 'dots vertical'
   },
   {
     name: 'Add',
@@ -108,7 +118,45 @@ const icons = [
     name: 'Log out',
     className: 'n-icon n-icon-log-out',
     tags: 'logout'
-  }
+  },
+  {
+    name: 'Sort',
+    className: 'n-icon n-icon-sort',
+    tags: 'sort, sort column'
+  },
+  {
+    name: 'Sort',
+    className: 'n-icon n-icon-sort',
+    tags: 'sort, sort column'
+  },
+  {
+    name: 'Sort Asc',
+    className: 'n-icon n-icon-sort-asc',
+    tags: 'sort, sort ascelling asc'
+  },
+
+  {
+    name: 'Sort Desc',
+    className: 'n-icon n-icon-sort-desc',
+    tags: 'sort, sort ascelling asc'
+  },
+
+  {
+    name: 'Search',
+    className: 'n-icon n-icon-search',
+    tags: 'search'
+  },
+
+  {
+    name: 'Chevron right',
+    className: 'n-icon n-icon-chevron-right',
+    tags: 'chevron right'
+  },
+  {
+    name: 'Arrow right',
+    className: 'n-icon n-icon-arrow-right',
+    tags: 'Arrow right'
+  },
 ]
 
 const iconsSet = icons.map((icon) => {
@@ -126,7 +174,7 @@ watch(
       items.value = iconsSet
     }
     items.value = iconsSet.filter((iconItem) =>
-      iconItem.tags.includes(qs.value)
+      iconItem.tags.includes(qs.value.toLowerCase())
     )
   },
   { immediate: true }
