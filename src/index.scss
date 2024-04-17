@@ -6,118 +6,147 @@
   mask-size: cover;
 
   &-rocket {
-    mask-image: url("./assets/rocket-02.svg");
+    mask-image: var(--url);
+    --url: url("./assets/rocket-02.svg");
   }
 
   &-sun {
-    mask-image: url("./assets/sun.svg");
+    mask-image: var(--url);
+    --url: url("./assets/sun.svg");
   }
 
   &-moon {
-    mask-image: url("./assets/moon-01.svg");
+    mask-image: var(--url);
+    --url: url("./assets/moon-01.svg");
   }
 
   &-drag {
-    mask-image: url("./assets/dots-grid.svg");
+    mask-image: var(--url);
+    --url: url("./assets/dots-grid.svg");
   }
 
   &-dots-v {
-    mask-image: url("./assets/dots-vertical.svg");
+    mask-image: var(--url);
+    --url: url("./assets/dots-vertical.svg");
   }
 
   &-add {
-    mask-image: url("./assets/plus.svg");
+    mask-image: var(--url);
+    --url: url("./assets/plus.svg");
   }
 
   &-close {
-    mask-image: url("./assets/x-close.svg");
+    mask-image: var(--url);
+    --url: url("./assets/x-close.svg");
   }
 
   &-translate {
-    mask-image: url("./assets/translate-01.svg");
+    mask-image: var(--url);
+    --url: url("./assets/translate-01.svg");
   }
 
   &-ok {
-    mask-image: url("./assets/ok.svg");
+    mask-image: var(--url);
+    --url: url("./assets/ok.svg");
   }
 
   &-minus {
-    mask-image: url("./assets/minus.svg");
+    mask-image: var(--url);
+    --url: url("./assets/minus.svg");
   }
 
 
   &-edit {
-    mask-image: url("./assets/edit-02.svg");
+    mask-image: var(--url);
+    --url: url("./assets/edit-02.svg");
   }
 
   &-copy {
-    mask-image: url("./assets/copy-03.svg");
+    mask-image: var(--url);
+    --url: url("./assets/copy-03.svg");
   }
 
   &-trash {
-    mask-image: url("./assets/trash-01.svg");
+    mask-image: var(--url);
+    --url: url("./assets/trash-01.svg");
   }
 
   &-refresh {
-    mask-image: url("./assets/refresh.svg");
+    mask-image: var(--url);
+    --url: url("./assets/refresh.svg");
   }
 
   &-folder {
-    mask-image: url("./assets/folder.svg");
+    mask-image: var(--url);
+    --url: url("./assets/folder.svg");
   }
 
   &-folder-open {
-    mask-image: url("./assets/folder-open.svg");
+    mask-image: var(--url);
+    --url: url("./assets/folder-open.svg");
   }
 
   &-settings {
-    mask-image: url("./assets/settings-01.svg");
+    mask-image: var(--url);
+    --url: url("./assets/settings-01.svg");
   }
 
   &-eye {
-    mask-image: url("./assets/eye.svg");
+    mask-image: var(--url);
+    --url: url("./assets/eye.svg");
   }
 
   &-eye-off {
-    mask-image: url("./assets/eye-off.svg");
+    mask-image: var(--url);
+    --url: url("./assets/eye-off.svg");
   }
 
   &-log-in {
-    mask-image: url("./assets/log-in.svg");
+    mask-image: var(--url);
+    --url: url("./assets/log-in.svg");
   }
 
   &-log-out {
-    mask-image: url("./assets/log-out.svg");
+    mask-image: var(--url);
+    --url: url("./assets/log-out.svg");
   }
 
   &-sort {
-    mask-image: url("./assets/sort.svg");
+    mask-image: var(--url);
+    --url: url("./assets/sort.svg");
   }
 
   &-sort-asc {
-    mask-image: url("./assets/sort-asc.svg");
+    mask-image: var(--url);
+    --url: url("./assets/sort-asc.svg");
   }
 
   &-sort-desc {
-    mask-image: url("./assets/sort-desc.svg");
+    mask-image: var(--url);
+    --url: url("./assets/sort-desc.svg");
   }
   &-search {
-    mask-image: url("./assets/search.svg");
+    mask-image: var(--url);
+    --url: url("./assets/search.svg");
   }
 
   &-home {
-    mask-image: url("./assets/home.svg");
+    mask-image: var(--url);
+    --url: url("./assets/home.svg");
   }
 
   &-image {
-    mask-image: url("./assets/image-03.svg");
+    mask-image: var(--url);
+    --url: url("./assets/image-03.svg");
   }
 
   &-arrow-right {
-    mask-image: url("./assets/arrow-right.svg");
+    mask-image: var(--url);
+    --url: url("./assets/arrow-right.svg");
   }
 
   &-chevron-right {
-    mask-image: url("./assets/chevron-right.svg");
+    mask-image: var(--url);
+    --url: url("./assets/chevron-right.svg");
   }
 }
