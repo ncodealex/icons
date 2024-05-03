@@ -5,157 +5,382 @@ const icons = [
   {
     name: 'Rocket',
     className: 'n-icon n-icon-rocket',
-    tags: 'rocket,start'
+    tags: 'rocket,start',
+    isNew:false
   },
   {
     name: 'Home',
     className: 'n-icon n-icon-home',
-    tags: 'home, breadcrumbs'
+    tags: 'home, breadcrumbs',
+    isNew:false,
+
   },
   {
     name: 'Image',
     className: 'n-icon n-icon-image',
-    tags: 'image, no-image, avatar'
+    tags: 'image, no-image, avatar',
+    isNew:false
   },
   {
     name: 'Sun',
     className: 'n-icon n-icon-sun',
-    tags: 'light,sun'
+    tags: 'light,sun',
+    isNew:false
   },
   {
     name: 'Moon',
     className: 'n-icon n-icon-moon',
-    tags: 'dark,moon'
+    tags: 'dark,moon',
+    isNew:false
   },
   {
     name: 'Drag',
     className: 'n-icon n-icon-drag',
-    tags: 'drag element, drag, dots grid'
+    tags: 'drag element, drag, dots grid',
+    isNew:false
   },
   {
     name: 'Dots vertical',
     className: 'n-icon n-icon-dots-v',
-    tags: 'dots vertical'
+    tags: 'dots vertical',
+    isNew:false
   },
   {
     name: 'Add',
     className: 'n-icon n-icon-add',
-    tags: 'add, plus'
+    tags: 'add, plus',
+    isNew:false
   },
   {
     name: 'Close',
     className: 'n-icon n-icon-close',
-    tags: 'close'
+    tags: 'close',
+    isNew:false
   },
 
   ///
   {
     name: 'Translate',
     className: 'n-icon n-icon-translate',
-    tags: 'translate'
+    tags: 'translate',
   },
   {
     name: 'Ok',
     className: 'n-icon n-icon-ok',
-    tags: 'ok'
+    tags: 'ok',
+    isNew:false
   },
   {
     name: 'Minus',
     className: 'n-icon n-icon-minus',
-    tags: 'minus'
+    tags: 'minus',
+    isNew:false
   },
   {
     name: 'Edit',
     className: 'n-icon n-icon-edit',
-    tags: 'edit'
+    tags: 'edit',
+    isNew:false
   },
   {
     name: 'Copy',
     className: 'n-icon n-icon-copy',
-    tags: 'Copy'
+    tags: 'Copy',
+    isNew:false
   },
   {
     name: 'trash',
     className: 'n-icon n-icon-trash',
-    tags: 'trash'
+    tags: 'trash',
+    isNew:false
   },
   {
     name: 'Refresh',
     className: 'n-icon n-icon-refresh',
-    tags: 'refresh, update'
+    tags: 'refresh, update',
+    isNew:false
   },
   {
     name: 'Folder',
     className: 'n-icon n-icon-folder',
-    tags: 'folder'
+    tags: 'folder',
+    isNew:false
   },
   {
     name: 'Folder Open',
     className: 'n-icon n-icon-folder-open',
-    tags: 'folder open'
+    tags: 'folder open',
+    isNew:false
   },
   {
     name: 'Settings',
     className: 'n-icon n-icon-settings',
-    tags: 'settings, cog'
+    tags: 'settings, cog',
+    isNew:false
   },
   {
     name: 'Eye',
     className: 'n-icon n-icon-eye',
-    tags: 'eye, glass, password show'
+    tags: 'eye, glass, password show',
+    isNew:false
   },
   {
     name: 'Eye off',
     className: 'n-icon n-icon-eye-off',
-    tags: 'eye, glass, password hide'
+    tags: 'eye, glass, password hide',
+    isNew:false
   },
   {
     name: 'Log in',
     className: 'n-icon n-icon-log-in',
-    tags: 'login'
+    tags: 'login',
+    isNew:false
   },
   {
     name: 'Log out',
     className: 'n-icon n-icon-log-out',
-    tags: 'logout'
+    tags: 'logout',
+    isNew:false
   },
   {
     name: 'Sort',
     className: 'n-icon n-icon-sort',
-    tags: 'sort, sort column'
+    tags: 'sort, sort column',
+    isNew:false
   },
   {
     name: 'Sort',
     className: 'n-icon n-icon-sort',
-    tags: 'sort, sort column'
+    tags: 'sort, sort column',
+    isNew:false
   },
   {
     name: 'Sort Asc',
     className: 'n-icon n-icon-sort-asc',
-    tags: 'sort, sort ascelling asc'
+    tags: 'sort, sort ascelling asc',
+    isNew:false
   },
 
   {
     name: 'Sort Desc',
     className: 'n-icon n-icon-sort-desc',
-    tags: 'sort, sort ascelling asc'
+    tags: 'sort, sort ascelling asc',
+    isNew:false
   },
 
   {
     name: 'Search',
     className: 'n-icon n-icon-search',
-    tags: 'search'
+    tags: 'search',
+    isNew:false
   },
 
   {
     name: 'Chevron right',
     className: 'n-icon n-icon-chevron-right',
-    tags: 'chevron right'
+    tags: 'chevron right',
+    isNew:false
   },
   {
     name: 'Arrow right',
     className: 'n-icon n-icon-arrow-right',
-    tags: 'Arrow right'
+    tags: 'Arrow right',
+    isNew:false
+  },
+    /// NEW
+
+  {
+    name: 'Attach',
+    className: 'n-icon n-icon-attach',
+    tags: 'Attach',
+    isNew:false
+  },
+  {
+    name: 'Bell',
+    className: 'n-icon n-icon-bell',
+    tags: 'Bell',
+    isNew:false
+  },
+  {
+    name: 'Book open',
+    className: 'n-icon n-icon-book-open',
+    tags: 'Book open, help desk',
+    isNew:false
+  },
+  {
+    name: 'Coins stacked',
+    className: 'n-icon n-icon-coins-stacked',
+    tags: 'Coins stacked',
+    isNew:false
+  },
+  {
+    name: 'Container',
+    className: 'n-icon n-icon-container',
+    tags: 'Container',
+    isNew:false
+  },
+    /////
+
+  {
+    name: 'Delete',
+    className: 'n-icon n-icon-delete',
+    tags: 'delete',
+    isNew:false
+  },
+  {
+    name: 'Flip backward',
+    className: 'n-icon n-icon-flip-backward',
+    tags: 'Flip backward, return, clear',
+    isNew:false
+  },
+  {
+    name: 'Hash',
+    className: 'n-icon n-icon-hash',
+    tags: 'Hash',
+    isNew:false
+  },
+  {
+    name: 'Layer tree',
+    className: 'n-icon n-icon-layer-three',
+    tags: 'Layer',
+    isNew:false
+  },
+  {
+    name: 'Left indent',
+    className: 'n-icon n-icon-left-indent',
+    tags: 'Left indent',
+    isNew:false
+  },
+  {
+    name: 'Right indent',
+    className: 'n-icon n-icon-right-indent',
+    tags: 'Right indent',
+    isNew:false
+  },
+  {
+    name: 'Life buoy',
+    className: 'n-icon n-icon-life-buoy',
+    tags: 'Life buoy',
+    isNew:false
+  },
+  {
+    name: 'Lock',
+    className: 'n-icon n-icon-lock',
+    tags: 'Lock',
+    isNew:false
+  },
+  {
+    name: 'Lock unlock',
+    className: 'n-icon n-icon-lock-unlock',
+    tags: 'Lock unlock',
+    isNew:false
+  },
+////
+
+  {
+    name: 'Pin',
+    className: 'n-icon n-icon-marker-pin',
+    tags: 'pin, location',
+    isNew:false
+  },
+  {
+    name: 'Menu',
+    className: 'n-icon n-icon-menu',
+    tags: 'menu',
+    isNew:false
+  },
+  {
+    name: 'Package',
+    className: 'n-icon n-icon-package',
+    tags: 'package',
+    isNew:false
+  },
+  {
+    name: 'Phone',
+    className: 'n-icon n-icon-phone',
+    tags: 'phone',
+    isNew:false
+  },
+  {
+    name: 'Puzzle',
+    className: 'n-icon n-icon-puzzle',
+    tags: 'puzzle',
+    isNew:false
+  },  {
+    name: 'Qr code',
+    className: 'n-icon n-icon-qr-code',
+    tags: 'Lock unlock',
+    isNew:false
+  },
+  {
+    name: 'Scan',
+    className: 'n-icon n-icon-scan',
+    tags: 'Lock unlock',
+    isNew:false
+  },
+
+  {
+    name: 'Send',
+    className: 'n-icon n-icon-send',
+    tags: 'send',
+    isNew:false
+  },
+
+  {
+    name: 'Switch',
+    className: 'n-icon n-icon-switch-h',
+    tags: 'Lock unlock',
+    isNew:false
+  },
+
+  {
+    name: 'Tool',
+    className: 'n-icon n-icon-tool',
+    tags: 'tool, repair, service',
+    isNew:false
+  },
+
+  {
+    name: 'Tool 2',
+    className: 'n-icon n-icon-tool-2',
+    tags: 'tool, repair, service',
+    isNew:false
+  },
+
+  {
+    name: 'Truck',
+    className: 'n-icon n-icon-truck',
+    tags: 'truck',
+    isNew:false
+  },
+
+  {
+    name: 'Text',
+    className: 'n-icon n-icon-text',
+    tags: 'text',
+    isNew:false
+  },
+
+
+  {
+    name: 'Volume max',
+    className: 'n-icon n-icon-volume-max',
+    tags: 'volume',
+    isNew:false
+  },
+
+  {
+    name: 'Volume off',
+    className: 'n-icon n-icon-volume-off',
+    tags: 'volume',
+    isNew:false
+  },
+
+  {
+    name: 'Warehouse',
+    className: 'n-icon n-icon-warehouse',
+    tags: 'warehouse',
+    isNew:false
   },
 ]
 

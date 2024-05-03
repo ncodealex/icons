@@ -149,4 +149,143 @@
     mask-image: var(--url);
     --url: url("./assets/chevron-right.svg");
   }
+//
+  &-attach {
+    mask-image: var(--url);
+    --url: url("./assets/attachment-01.svg");
+  }
+  &-bell {
+    mask-image: var(--url);
+    --url: url("./assets/bell-01.svg");
+  }
+  &-book-open {
+    mask-image: var(--url);
+    --url: url("./assets/book-open-01.svg");
+  }
+  &-coins-stacked {
+    mask-image: var(--url);
+    --url: url("./assets/coins-stacked-02.svg");
+  }
+  &-container {
+    mask-image: var(--url);
+    --url: url("./assets/container.svg");
+  }
+  &-delete {
+    mask-image: var(--url);
+    --url: url("./assets/delete.svg");
+  }
+
+  &-flip-backward {
+    mask-image: var(--url);
+    --url: url("./assets/flip-backward.svg");
+  }
+
+  &-hash {
+    mask-image: var(--url);
+    --url: url("./assets/hash.svg");
+  }
+
+  ////
+  &-layer-three {
+    mask-image: var(--url);
+    --url: url("./assets/layers-three-02.svg");
+  }
+  &-left-indent {
+    mask-image: var(--url);
+    --url: url("./assets/left-indent.svg");
+  }
+
+  &-right-indent {
+    mask-image: var(--url);
+    --url: url("./assets/right-indent.svg");
+  }
+
+  &-life-buoy {
+    mask-image: var(--url);
+    --url: url("./assets/life-buoy.svg");
+  }
+  &-lock{
+    mask-image: var(--url);
+    --url: url("./assets/lock-01.svg");
+  }
+  &-lock-unlock {
+    mask-image: var(--url);
+    --url: url("./assets/lock-unlocked-01.svg");
+  }
+
+  &-marker-pin {
+    mask-image: var(--url);
+    --url: url("./assets/marker-pin-01.svg");
+  }
+
+  &-menu {
+    mask-image: var(--url);
+    --url: url("./assets/menu.svg");
+  }
+
+  &-package {
+    mask-image: var(--url);
+    --url: url("./assets/package.svg");
+  }
+
+  &-phone {
+    mask-image: var(--url);
+    --url: url("./assets/phone.svg");
+  }
+
+  &-puzzle {
+    mask-image: var(--url);
+    --url: url("./assets/puzzle-piece-01.svg");
+  }
+
+  &-qr-code {
+    mask-image: var(--url);
+    --url: url("./assets/qr-code-01.svg");
+  }
+
+  &-scan {
+    mask-image: var(--url);
+    --url: url("./assets/scan.svg");
+  }
+
+  &-send {
+    mask-image: var(--url);
+    --url: url("./assets/send-03.svg");
+  }
+
+
+  &-switch-h {
+    mask-image: var(--url);
+    --url: url("./assets/switch-horizontal-01.svg");
+  }
+  &-tool {
+    mask-image: var(--url);
+    --url: url("./assets/tool-01.svg");
+  }
+
+  &-tool-2 {
+    mask-image: var(--url);
+    --url: url("./assets/tool-02.svg");
+  }
+
+  &-truck {
+    mask-image: var(--url);
+    --url: url("./assets/truck.svg");
+  }
+  &-text {
+    mask-image: var(--url);
+    --url: url("./assets/type-02.svg");
+  }
+  &-volume-max {
+    mask-image: var(--url);
+    --url: url("./assets/volume-max.svg");
+  }
+  &-volume-off {
+    mask-image: var(--url);
+    --url: url("./assets/volume-x.svg");
+  }
+  &-warehouse {
+    mask-image: var(--url);
+    --url: url("./assets/warehouse.svg");
+  }
 }
