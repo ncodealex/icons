@@ -113,6 +113,12 @@ const icons = [
     isNew:false
   },
   {
+    name: 'Folder Open solid',
+    className: 'n-icon n-icon-folder-open_solid',
+    tags: 'folder open',
+    isNew:false
+  },
+  {
     name: 'Settings',
     className: 'n-icon n-icon-settings',
     tags: 'settings, cog',
@@ -327,8 +333,15 @@ const icons = [
   },
 
   {
-    name: 'Switch',
+    name: 'Switch h',
     className: 'n-icon n-icon-switch-h',
+    tags: 'Lock unlock',
+    isNew:false
+  },
+
+  {
+    name: 'Switch v',
+    className: 'n-icon n-icon-switch-v',
     tags: 'Lock unlock',
     isNew:false
   },
@@ -380,6 +393,34 @@ const icons = [
     name: 'Warehouse',
     className: 'n-icon n-icon-warehouse',
     tags: 'warehouse',
+    isNew:false
+  },
+
+  {
+    name: 'Upload cloud',
+    className: 'n-icon n-icon-upload-cloud',
+    tags: 'upload, cloud',
+    isNew:false
+  },
+
+  {
+    name: 'Download cloud',
+    className: 'n-icon n-icon-download-cloud',
+    tags: 'download, cloud',
+    isNew:false
+  },
+
+  {
+    name: 'Variable',
+    className: 'n-icon n-icon-variable',
+    tags: 'download, cloud',
+    isNew:false
+  },
+
+  {
+    name: 'Right bar',
+    className: 'n-icon n-icon-right-bar',
+    tags: 'right bar, layout',
     isNew:false
   },
 ]

@@ -86,6 +86,11 @@
     --url: url("./assets/folder-open.svg");
   }
 
+  &-folder-open_solid {
+    mask-image: var(--url);
+    --url: url("./assets/folder-open_solid.svg");
+  }
+
   &-settings {
     mask-image: var(--url);
     --url: url("./assets/settings-01.svg");
@@ -190,6 +195,7 @@
     mask-image: var(--url);
     --url: url("./assets/layers-three-02.svg");
   }
+
   &-left-indent {
     mask-image: var(--url);
     --url: url("./assets/left-indent.svg");
@@ -258,6 +264,12 @@
     mask-image: var(--url);
     --url: url("./assets/switch-horizontal-01.svg");
   }
+
+  &-switch-v {
+    mask-image: var(--url);
+    --url: url("./assets/switch-horizontal-01.svg");
+  }
+
   &-tool {
     mask-image: var(--url);
     --url: url("./assets/tool-01.svg");
@@ -287,5 +299,25 @@
   &-warehouse {
     mask-image: var(--url);
     --url: url("./assets/warehouse.svg");
+  }
+
+  &-upload-cloud {
+    mask-image: var(--url);
+    --url: url("./assets/upload-cloud-01.svg");
+  }
+
+  &-download-cloud {
+    mask-image: var(--url);
+    --url: url("./assets/download-cloud-01.svg");
+  }
+
+  &-variable {
+    mask-image: var(--url);
+    --url: url("./assets/variable.svg");
+  }
+
+  &-right-bar {
+    mask-image: var(--url);
+    --url: url("./assets/layout-alt-02.svg");
   }
 }
